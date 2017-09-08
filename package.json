@@ -1,0 +1,23 @@
+{
+  "name": "inmartestrestapiserver",
+  "version": "1.0.0",
+  "description": "InmarTest REST API Server",
+  "main": "InmarTestApiBooter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Venkat Koneti",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "*",
+    "jsonwebtoken": "*",
+    "moment": "*",
+    "mysql": "*",
+    "node-gcm": "*",
+    "node-uuid": "*",
+    "request": "*",
+    "restify": "^4.0.3",
+    "restify-validator": "^0.3.1",
+    "sequelize": "^3.14.0"
+  }
+}
